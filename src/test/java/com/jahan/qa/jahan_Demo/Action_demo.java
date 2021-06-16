@@ -21,6 +21,8 @@ public class Action_demo {
 		ac.moveToElement(driver.findElement(By.xpath("//button[contains(text(),'Financing')]"))).build().perform();
 		Thread.sleep(5000);
 		driver.quit();
+		
+		// Test GIT
 	}
 
 }
